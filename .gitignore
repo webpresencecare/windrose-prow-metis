@@ -1,0 +1,20 @@
+# Development notes stay on the developer's machine.
+/CLAUDE.md
+/TODO.md
+/DONE.md
+
+# Build and test output.
+dist/
+*.zip
+/tests/e2e/node_modules
+/tests/e2e/.results/
+
+# Operating system and editor files.
+.DS_Store
+Thumbs.db
+desktop.ini
+*Zone.Identifier
+.idea/
+.vscode/
+*.swp
+*~

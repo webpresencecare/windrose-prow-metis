@@ -1,0 +1,13 @@
+{
+	"title": "Open Sea",
+	"palette": {
+		"base": [ "Foam", "#f6f9fb" ],
+		"contrast": [ "Deep water", "#12263a" ],
+		"accent-1": [ "Teal", "#0b6e78" ],
+		"accent-3": [ "Night sea", "#0a2540" ],
+		"accent-5": [ "Mist", "#e3eef3" ],
+		"accent-6": [ "Line", "#12263a33" ]
+	},
+	"raised": "#ffffff",
+	"soft": [ "#cfeadf", "#c5e6e8", "#cfe3f5", "#f1e3c8", "#f6d3c8", "#dcd8ec" ]
+}

@@ -1,0 +1,16 @@
+# Left out of the release zip (bin/build-zip.sh): one path per line, relative to the theme folder.
+.git
+.github
+.gitignore
+.gitattributes
+.distignore
+tests
+bin
+dist
+README.md
+CLAUDE.md
+TODO.md
+DONE.md
+src
+phpcs.xml.dist
+phpstan.neon.dist

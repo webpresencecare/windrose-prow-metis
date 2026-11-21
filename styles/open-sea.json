@@ -1,0 +1,89 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Open Sea",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "base",
+					"name": "Foam",
+					"color": "#f6f9fb"
+				},
+				{
+					"slug": "contrast",
+					"name": "Deep water",
+					"color": "#12263a"
+				},
+				{
+					"slug": "accent-1",
+					"name": "Teal",
+					"color": "#0b6e78"
+				},
+				{
+					"slug": "accent-3",
+					"name": "Night sea",
+					"color": "#0a2540"
+				},
+				{
+					"slug": "accent-5",
+					"name": "Mist",
+					"color": "#e3eef3"
+				},
+				{
+					"slug": "accent-6",
+					"name": "Line",
+					"color": "#12263a33"
+				},
+				{
+					"slug": "windrose-livery-dark-base",
+					"name": "Dark: Foam",
+					"color": "#151617"
+				},
+				{
+					"slug": "windrose-livery-dark-contrast",
+					"name": "Dark: Deep water",
+					"color": "#e1efff"
+				},
+				{
+					"slug": "windrose-livery-dark-accent-1",
+					"name": "Dark: Teal",
+					"color": "#5db0ba"
+				},
+				{
+					"slug": "windrose-livery-dark-accent-3",
+					"name": "Dark: Night sea",
+					"color": "#e3f0ff"
+				},
+				{
+					"slug": "windrose-livery-dark-accent-5",
+					"name": "Dark: Mist",
+					"color": "#1b2022"
+				},
+				{
+					"slug": "windrose-livery-dark-accent-6",
+					"name": "Dark: Line",
+					"color": "#e1efff33"
+				}
+			]
+		},
+		"custom": {
+			"prow": {
+				"raised": "#ffffff",
+				"dark-raised": "#1e1f20",
+				"soft-1": "#cfeadf",
+				"dark-soft-1": "#273d35",
+				"soft-2": "#c5e6e8",
+				"dark-soft-2": "#213d3f",
+				"soft-3": "#cfe3f5",
+				"dark-soft-3": "#2a3a48",
+				"soft-4": "#f1e3c8",
+				"dark-soft-4": "#413620",
+				"soft-5": "#f6d3c8",
+				"dark-soft-5": "#4b3028",
+				"soft-6": "#dcd8ec",
+				"dark-soft-6": "#393545"
+			}
+		}
+	}
+}

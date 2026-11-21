@@ -1,0 +1,88 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "base",
+					"name": "Snow",
+					"color": "#FAFAFA"
+				},
+				{
+					"slug": "contrast",
+					"name": "Black 75%",
+					"color": "#1a1a1abf"
+				},
+				{
+					"slug": "accent-1",
+					"name": "Gold",
+					"color": "#936e00"
+				},
+				{
+					"slug": "accent-3",
+					"name": "Black",
+					"color": "#1A1A1A"
+				},
+				{
+					"slug": "accent-5",
+					"name": "Black 5%",
+					"color": "#1A1A1A0D"
+				},
+				{
+					"slug": "accent-6",
+					"name": "Border",
+					"color": "#1A1A1A33"
+				},
+				{
+					"slug": "windrose-livery-dark-base",
+					"name": "Dark: Snow",
+					"color": "#161616"
+				},
+				{
+					"slug": "windrose-livery-dark-contrast",
+					"name": "Dark: Black 75%",
+					"color": "#eeeeeebf"
+				},
+				{
+					"slug": "windrose-livery-dark-accent-1",
+					"name": "Dark: Gold",
+					"color": "#a47f21"
+				},
+				{
+					"slug": "windrose-livery-dark-accent-3",
+					"name": "Dark: Black",
+					"color": "#eeeeee"
+				},
+				{
+					"slug": "windrose-livery-dark-accent-5",
+					"name": "Dark: Black 5%",
+					"color": "#eeeeee0d"
+				},
+				{
+					"slug": "windrose-livery-dark-accent-6",
+					"name": "Dark: Border",
+					"color": "#eeeeee33"
+				}
+			]
+		},
+		"custom": {
+			"prow": {
+				"raised": "#FFFFFF",
+				"dark-raised": "#1f1f1f",
+				"soft-1": "#FFC844",
+				"dark-soft-1": "#483400",
+				"soft-2": "#FFA080",
+				"dark-soft-2": "#562a1b",
+				"soft-3": "#81DF6E",
+				"dark-soft-3": "#23411d",
+				"soft-4": "#4dc3ff",
+				"dark-soft-4": "#033d57",
+				"soft-5": "#A8AEF0",
+				"dark-soft-5": "#31335b",
+				"soft-6": "#EC86F9",
+				"dark-soft-6": "#492b4d"
+			}
+		}
+	}
+}

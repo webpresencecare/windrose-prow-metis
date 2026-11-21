@@ -1,0 +1,169 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Cimmeria",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "base",
+					"name": "Black",
+					"color": "#000000"
+				},
+				{
+					"slug": "contrast",
+					"name": "White 70%",
+					"color": "#ffffffb3"
+				},
+				{
+					"slug": "accent-1",
+					"name": "Graphite",
+					"color": "#757575"
+				},
+				{
+					"slug": "accent-3",
+					"name": "White",
+					"color": "#FFFFFF"
+				},
+				{
+					"slug": "accent-5",
+					"name": "White 5%",
+					"color": "#FFFFFF0D"
+				},
+				{
+					"slug": "accent-6",
+					"name": "Border",
+					"color": "#FFFFFF33"
+				},
+				{
+					"slug": "windrose-livery-light-base",
+					"name": "Light: Black",
+					"color": "#fafafa"
+				},
+				{
+					"slug": "windrose-livery-light-contrast",
+					"name": "Light: White 70%",
+					"color": "#161616b3"
+				},
+				{
+					"slug": "windrose-livery-light-accent-1",
+					"name": "Light: Graphite",
+					"color": "#707070"
+				},
+				{
+					"slug": "windrose-livery-light-accent-3",
+					"name": "Light: White",
+					"color": "#161616"
+				},
+				{
+					"slug": "windrose-livery-light-accent-5",
+					"name": "Light: White 5%",
+					"color": "#1616160d"
+				},
+				{
+					"slug": "windrose-livery-light-accent-6",
+					"name": "Light: Border",
+					"color": "#16161633"
+				}
+			],
+			"gradients": [
+				{
+					"gradient": "linear-gradient(180deg, var(--wp--preset--color--theme-7) 0%, rgb(from var(--wp--preset--color--theme-1) r g b / 0%) 100%)",
+					"name": "Graphite fade",
+					"slug": "gradient-1"
+				},
+				{
+					"gradient": "linear-gradient(180deg, var(--wp--preset--color--theme-8) 0%, rgb(from var(--wp--preset--color--theme-1) r g b / 0%) 100%)",
+					"name": "Iron fade",
+					"slug": "gradient-2"
+				},
+				{
+					"gradient": "linear-gradient(180deg, var(--wp--preset--color--theme-9) 0%, rgb(from var(--wp--preset--color--theme-1) r g b / 0%) 100%)",
+					"name": "Soot fade",
+					"slug": "gradient-3"
+				},
+				{
+					"gradient": "linear-gradient(180deg, var(--wp--preset--color--theme-10) 0%, rgb(from var(--wp--preset--color--theme-1) r g b / 0%) 100%)",
+					"name": "Lead fade",
+					"slug": "gradient-4"
+				},
+				{
+					"gradient": "linear-gradient(180deg, var(--wp--preset--color--theme-11) 0%, rgb(from var(--wp--preset--color--theme-1) r g b / 0%) 100%)",
+					"name": "Steel fade",
+					"slug": "gradient-5"
+				},
+				{
+					"gradient": "linear-gradient(180deg, var(--wp--preset--color--theme-12) 0%, rgb(from var(--wp--preset--color--theme-1) r g b / 0%) 100%)",
+					"name": "Ink fade",
+					"slug": "gradient-6"
+				},
+				{
+					"gradient": "linear-gradient(180deg, var(--wp--preset--color--theme-4) 0%, rgb(from var(--wp--preset--color--theme-4) r g b / 0%) 100%)",
+					"name": "Veil fade",
+					"slug": "gradient-7"
+				},
+				{
+					"gradient": "linear-gradient(180deg, rgb(from var(--wp--preset--color--theme-4) r g b / 0%) 0%, var(--wp--preset--color--theme-4) 100%)",
+					"name": "Veil rise",
+					"slug": "gradient-8"
+				},
+				{
+					"gradient": "linear-gradient(180deg, rgb(from var(--wp--preset--color--theme-1) r g b / 60%) 0%, rgb(from var(--wp--preset--color--theme-1) r g b / 0%) 100%)",
+					"name": "Glow fade",
+					"slug": "gradient-9"
+				},
+				{
+					"gradient": "linear-gradient(180deg, rgb(from var(--wp--preset--color--theme-1) r g b / 0%) 0%, rgb(from var(--wp--preset--color--theme-1) r g b / 60%) 100%)",
+					"name": "Shade rise",
+					"slug": "gradient-10"
+				},
+				{
+					"gradient": "linear-gradient(180deg, var(--wp--preset--color--theme-6) 40%, rgb(from var(--wp--preset--color--theme-6) r g b / 0%) 100%)",
+					"name": "White fade",
+					"slug": "gradient-11"
+				},
+				{
+					"gradient": "linear-gradient(180deg, rgb(from var(--wp--preset--color--theme-6) r g b / 0%) 0%, var(--wp--preset--color--theme-6) 60%)",
+					"name": "White rise",
+					"slug": "gradient-12"
+				}
+			],
+			"duotone": [
+				{
+					"colors": [
+						"#000000",
+						"#FFFFFF"
+					],
+					"name": "Black and white",
+					"slug": "duotone-1"
+				},
+				{
+					"colors": [
+						"#FFFFFF",
+						"#FFFFFF"
+					],
+					"name": "Artwork",
+					"slug": "duotone-2"
+				}
+			]
+		},
+		"custom": {
+			"prow": {
+				"raised": "#141414",
+				"light-raised": "#ffffff",
+				"soft-1": "#333333bf",
+				"light-soft-1": "#e3e3e3",
+				"soft-2": "#404040",
+				"light-soft-2": "#e3e3e3",
+				"soft-3": "#2B2B2B",
+				"light-soft-3": "#e3e3e3",
+				"soft-4": "#4d4d4d80",
+				"light-soft-4": "#e3e3e3",
+				"soft-5": "#59595980",
+				"light-soft-5": "#e3e3e3",
+				"soft-6": "#262626",
+				"light-soft-6": "#e3e3e3"
+			}
+		}
+	}
+}

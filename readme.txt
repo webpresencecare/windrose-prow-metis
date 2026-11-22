@@ -1,5 +1,5 @@
 === Windrose Prow for Metis ===
-Contributors: patriciabt
+Contributors: patricia70
 Requires at least: 7.2
 Tested up to: 7.2
 Requires PHP: 8.4
@@ -22,6 +22,18 @@ Choosing a style copies its values into the site's saved styles: a later change 
 Requires the Metis theme.
 
 Warning: Metis is still in development. It has no release yet and changes almost every day: its color names, its Dark Mode switch or its styles can change at any time, and this theme may then show the wrong colors until it is adapted. Use it to try things out; for a live site, wait until Metis is released.
+
+Windrose Prow for Metis is part of the Windrose Suite, a free set of plugins and themes for WordPress networks: https://www.webpresencecare.com/windrose/ . Each Windrose plugin and theme works on its own.
+
+Source code, issues and build steps: https://github.com/webpresencecare/windrose-prow-metis
+
+Security: please report vulnerabilities privately through GitHub: https://github.com/webpresencecare/windrose-prow-metis/security/advisories/new . Never in a public support thread.
+
+== Frequently Asked Questions ==
+
+= Is this theme written with AI? =
+
+Yes. I write the Windrose plugins and themes with Claude Code, Anthropic's AI coding assistant: I design each feature, test it on real sites and review every release, and every commit written with Claude says so. Independent reviews are welcome on GitHub.
 
 == Changelog ==
 

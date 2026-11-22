@@ -1,5 +1,7 @@
 # Windrose Prow for Metis
 
+> Part of **[the Windrose Suite](https://www.webpresencecare.com/windrose/)**: WordPress for networks of sites, private by default, multilingual if you want it, free for everyone. Each Windrose plugin and theme works on its own.
+
 A child theme of **Metis** (WordPress's flagship theme, https://github.com/WordPress/metis) for the Windrose Suite.
 
 > **Warning: Metis is still in development.** It has no release yet and changes almost every day. Its color names, its Dark Mode switch or its styles can change at any time, and this theme may then show the wrong colors until I adapt it. A check runs on every push and fails as soon as Metis renames something it relies on. Use it to try things out; for a live site, wait until Metis is released.
@@ -40,3 +42,19 @@ Every Windrose Prow theme gives its parent the same color names, the ones Ipsum 
 - Tests: Playwright (`tests/e2e/prow-metis.spec.mjs`) on a WordPress network with WP-CLI, Metis and this theme installed (environment variables `WINDROSE_E2E_HOST`, the network's host, default `localhost`; `WINDROSE_E2E_USER`, a network administrator, default `admin`), on a throwaway site `/prow-metis-e2e/`, deleted at the end.
 - PHPCS with the WordPress coding standards (`phpcs.xml.dist`) and PHPStan level 8 with the WordPress stubs (`phpstan.neon.dist`).
 - CI (`.github/workflows/ci.yml`): php -l on PHP 8.4 and 8.5, core's theme.json schema, theme header, Metis's names, zip build. Release (`release.yml`): tag `vX.Y.Z` builds `windrose-prow-metis.zip` (`bin/build-zip.sh`).
+
+## Status
+
+Releases are on this repository's GitHub releases page. For now, update the theme by hand from there. A wordpress.org version may come later, after independent reviews.
+
+## Security
+
+Please report vulnerabilities privately, never in a public issue: see [SECURITY.md](SECURITY.md).
+
+## Contributing
+
+Reviews, tests and issues are welcome: see [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## How this code is written
+
+I write this theme with Claude Code (Anthropic's AI coding assistant): I design each feature, test it on real sites and review every release. Commits written with Claude say so in a `Co-Authored-By` line. Human review is especially welcome.
